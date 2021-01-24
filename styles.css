@@ -1,0 +1,82 @@
+*{
+	background-color:darkgray;
+	font-color:white;/*in case i miss any font colors*/
+}
+
+h1{
+	padding: 5px;
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: black;
+	background-color:#009cde;
+
+}
+
+nav{
+	font-size: 20px;
+	font-wieght: bold;
+	background-color:#009cde;
+}
+
+button{
+	background-color: #009cde;
+	border: none;
+	color: black;
+	font-weight: bold;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+button:hover {opacity: 1}
+
+
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2{
+	color:black;
+	font-family:Helvetica;
+	size:20px;
+}
+
+table{
+	font-family: "Helvetica";
+	font-size: 16px;
+	color: black;
+	border: 3px solid #009cde;
+}
+
+th, td {
+	text-align: right;
+	padding: 10px;
+}
+
+ul li{
+	font-family: "Helvetica";
+	background: #009cde;
+	margin: 5px;
+	color: black;
+	font-size: 16px;
+}
+
+a{
+	font-family: Times;
+	font-size: 16px;
+	color: black;
+	background-color:#009cde;
+}
+
+footer{
+	padding-top: 5px;
+	font-size: 16px;
+	color:#darkgray;
+}

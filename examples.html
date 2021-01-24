@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!--Made By George Kyriakakos<-->
+<head>
+	<link href="styles.css" rel="stylesheet">
+	<title>George Kyriakakos Drupal</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+	<img id="logo" src="logo.png" alt="Drupal Logo">
+	<h1>Examples of Drupal</h1>
+	<nav>
+		<a href="index.html">Home</a> |
+		<a href="advantages.html">Advantages of Drupal</a> |
+		<a href="examples.html">Examples of Drupal</a>
+	</nav>
+
+
+	<button id="hello">Hello World</button>
+	<button id="admin">Admin panel</button>
+	<button id="whitehouse">White House.gov's drupal site</button> <br>
+	
+	<img id="example" class="image" src="drupal-helloworld-example.jpg" alt="hellow world in drupal">
+	
+	
+	
+	
+	<h2>An Example of Installing Drupal</h2>
+		<video controls width="640" height ="358">
+		<source src="lyndaDrupal.mp4">
+		</video>
+
+<footer> This Project was created by George Kyriakakos</footer>
+
+<script>
+	$(document).ready(function(){
+		$("#hello").click(function(){
+			$("#example").attr({
+				"src" : "drupal-helloworld-example.jpg",
+				"alt" : "hello world in drupal"
+				});
+		});
+	
+		$("#admin").click(function(){
+			$("#example").attr({
+				"src" : "drupal-admin-view.png",
+				"alt" : "Drupal's admin view"
+				});
+		});
+	
+		$("#whitehouse").click(function(){
+			$("#example").attr({
+				"src" : "whitehouse-drupal-example.jpg",
+				
+				});
+		});    
+	});	
+</script>
+</body>
+</html>
